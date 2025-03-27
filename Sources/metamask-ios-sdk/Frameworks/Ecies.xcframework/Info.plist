@@ -19,6 +19,8 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
+			<key>ModuleMapPath</key>
+			<string>Headers/ecies.modulemap</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -37,6 +39,8 @@
 			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
+			<key>ModuleMapPath</key>
+			<string>Headers/ecies.modulemap</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
