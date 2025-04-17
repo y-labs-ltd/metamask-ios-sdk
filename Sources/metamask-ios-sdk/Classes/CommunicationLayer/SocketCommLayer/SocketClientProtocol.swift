@@ -21,7 +21,11 @@ protocol SocketManagerProtocol {
     var standardSocket: SocketProtocol { get }
 }
 
-extension SocketIOClient: SocketProtocol { }
+extension SocketIOClient: SocketProtocol {
+    func connect(withPayload payload: [String : Any]?) {
+        connect()
+    }
+}
 
 extension SocketManager: SocketManagerProtocol {
     var standardSocket: SocketProtocol {
